@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Slider-button{
+    @apply w-12 h-2 mx-1 mt-6 rounded-full bg-gray-500 hover:bg-slate-300
+}
+
+.InputHome{
+    @apply w-inputHome h-12 rounded-md
+}
+
+.labelHomeEmail{
+    @apply relative right-32 top-3 font-poppins text-white
+}
+
+.labelHomePass{
+    @apply relative right-28 top-3 font-poppins text-white
+}
+
+.registerLine{
+    @apply w-40 h-1 mx-1 mt-6 rounded-full bg-gray-700  hover:bg-slate-300
+}
+
+.register-button{
+    @apply w-12 h-10 mx-3 mt-6 rounded-xl bg-instaHome hover:bg-slate-300
+}
